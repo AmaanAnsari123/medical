@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orders | Medical Inventory</title>
+     <!-- Bootstrap CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+   />
+   <!-- Custom CSS -->
+   <!-- <link rel="stylesheet" href="styles.css" /> -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+<script src="scripts.js"></script>
+
+
+  
+
+   <style>
+    /* Custom CSS */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+   </style>
+   <style>
+    body {
+      background-image: url('md.png');
+      background-size: cover;
+      backdrop-filter: blur(50px);
+     
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+  
+      
+      
+      
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Medical Inventory</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inventory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Orders</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+      <h1 class="text-center mb-5">Orders</h1>
+      <div class="row">
+        <div class="col-md-8">
+          <form class="mb-4">
+            <div class="form-row">
+              <div class="col">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="search-input" placeholder="Search...">
+              </div>              
+              </div>
+            </div>
+          </form>
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Aspirin</td>
+                <td>Pain Reliever</td>
+                <td>100</td>
+                <td>$5.99</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Band-Aids</td>
+                <td>Adhesive Bandages</td>
+                <td>50</td>
+                <td>$5.99</td>
+                </tr>
+                </tbody>
+                </table>
