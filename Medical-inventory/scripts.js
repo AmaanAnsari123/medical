@@ -8,7 +8,7 @@ $(document).ready(function() {
       var price = $(this).find('td:eq(4)').text();
   
       // Create a modal dialog
-      var modal = $('<div>').addClass('modal fade');
+      var modal = $('<div>').addClass('modal animate__animated animate__fadeIn');
       var dialog = $('<div>').addClass('modal-dialog modal-dialog-centered');
       var content = $('<div>').addClass('modal-content');
       var header = $('<div>').addClass('modal-header').appendTo(content);

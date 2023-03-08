@@ -13,135 +13,52 @@
    <!-- Custom CSS -->
    <!-- <link rel="stylesheet" href="styles.css" /> -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Custom JS -->
-<script src="scripts.js"></script>
-
-
-  
-
-   <style>
-    /* Custom CSS */
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th,
-td {
-  padding: 0.75rem;
-  text-align: center;
-}
-
-th {
-  background-color: #007bff;
-  color: #fff;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-tr:hover {
-  background-color: #ddd;
-}
-
-.form-control:focus {
-  border-color: #007bff;
-  box-shadow: none;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:hover {
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
-
-.btn-primary:focus {
-  box-shadow: none;
-}
-
-.card {
-  margin-bottom: 2rem;
-}
-
-.card-header {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.card-body {
-  padding: 1.5rem;
-}
-
-.card-title {
-  margin-bottom: 0.5rem;
-}
-
-.card-text:last-child {
-  margin-bottom: 0;
-}
-
-   </style>
-   <style>
-    body {
-      background-image: url('md.png');
-      background-size: cover;
-      backdrop-filter: blur(20px);
-     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.1.1/dist/js/bootstrap.min.js" integrity="sha384-oFMgcGzKX7GaHtF4hx14KbxdsGjyfHK6m1comHjI1FH6g4m6qYre+4cnZbwaYbHD" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+      fade:not(.show) {
+        opacity: none;
+    }
+    .modal.in{
+      background: #ddd;
+      
     }
     </style>
   </head>
   <body>
     <!-- Navbar -->
   
-      
-      
-      
-   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Medical Inventory</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand text-white" href="#">Medical Inventory</a>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link text-white" href="index.html">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inventory</a>
+            <a class="nav-link text-white" href="#">Inventory</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Orders</a>
+            <a class="nav-link text-white" href="orders.html">Orders</a>
           </li>
         </ul>
       </div>
     </nav>
-
+  <div class="contain  animate__animated animate__fadeIn">
     <!-- Main Content -->
     <div class="container my-5">
       <h1 class="text-center mb-5">View Inventory</h1>
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
           <form class="mb-4">
             <div class="form-row">
               <div class="col">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="search-input" placeholder="Search...">
+                <input type="text" class="form-control" id="search-input" placeholder=" &#x1F50D; Search...">
               </div>              
               </div>
             </div>
@@ -171,5 +88,31 @@ tr:hover {
                 <td>50</td>
                 <td>$5.99</td>
                 </tr>
+                 <tr>
+                <td>2</td>
+                <td>Band-Aids</td>
+                <td>Adhesive Bandages</td>
+                <td>50</td>
+                <td>$5.99</td>
+                </tr>
+                 <tr>
+                <td>2</td>
+                <td>Band-Aids</td>
+                <td>Adhesive Bandages</td>
+                <td>50</td>
+                <td>$5.99</td>
+                </tr>
+                 <tr>
+                <td>2</td>
+                <td>Band-Aids</td>
+                <td>Adhesive Bandages</td>
+                <td>50</td>
+                <td>$5.99</td>
+                </tr>
                 </tbody>
                 </table>
+              </div>
+            </div>
+            </div>
+        </body>
+      </html>

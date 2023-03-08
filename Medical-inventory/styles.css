@@ -1,0 +1,92 @@
+body{
+    background-color: #f2f8ff;
+}
+
+.bk img{
+    width: 800px;
+    /* height: 500px; */
+    position: absolute;
+    right: 25%;
+    bottom:0;
+    z-index: -1;   
+}
+.form-control{
+    width: 190%;
+    border: 2px solid #316eb0;
+    border-radius: 0.4rem;
+}
+/* Inventory.html */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: center;
+}
+
+th {
+    background-color: #00356d;
+    color: #fff;
+}
+
+th:nth-child(1){
+    /* background-color: #d1eeff; */
+    border-top-left-radius:15px ;
+}
+th:nth-child(5) {
+    /* background-color: #d1eeff; */
+    border-top-right-radius: 15px;
+}
+tr:nth-child(even) {
+    background-color: #d1eeff;
+}
+
+tr:nth-child(odd) {
+    background-color: #d8d8ff;
+}
+tr:hover {
+    background-color: #ddd;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
